@@ -43,7 +43,8 @@ The lab simulates how companies manage users, computers, security settings, and 
 ✔ Organized users into departments using Active Directory  
 
 📸 *Screenshot Placeholder: User Accounts in Active Directory*
-
+<img src="https://imgur.com/a/ZRvOC8j" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 ---
 
 ## 🔐 Group Policy (Company Rules)
