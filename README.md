@@ -16,7 +16,7 @@ Installed and configured **Active Directory Domain Services (AD DS)** to create 
 - Configured DNS through Active Directory
 
 📸 **Domain Controller Installed**
-![Domain Controller Setup](screenshots/domain-controller-dashboard.png)
+<img src="https://i.imgur.com/unl4R8o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 ---
 
@@ -58,7 +58,7 @@ Simulated a company file server with controlled access.
 - Used Effective Permissions to troubleshoot access issues
 
 📸 **Shared Folder Security Permissions**
-![Shared Folder Permissions](screenshots/shared-folder-permissions.png)
+<img src="https://i.imgur.com/UXGpT8P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 ---
 
