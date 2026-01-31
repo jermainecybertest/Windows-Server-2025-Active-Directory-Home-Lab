@@ -1,99 +1,93 @@
-# 🖥️ Windows Server 2025 Active Directory Homelab
+# 🖥️ Active Directory Home Lab Project  
+**Career Focus: IT Support / Helpdesk**
 
-Built a virtual enterprise-style network using **Windows Server** to simulate real-world IT infrastructure, user management, and security policies.
-
-This project demonstrates hands-on skills used in **Help Desk / IT Support roles**.
-
----
-
-## 🏢 Active Directory Setup
-
-Installed and configured **Active Directory Domain Services (AD DS)** to create a domain environment for managing users and computers.
-
-**Key Tasks:**
-- Promoted Windows Server to a **Domain Controller**
-- Created an internal domain
-- Configured DNS through Active Directory
-
-📸 **Domain Controller Installed**
-<img src="https://i.imgur.com/unl4R8o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+This project simulates a small business network using Windows Server and Active Directory. The goal was to gain hands-on experience with common IT support tasks like managing users, securing accounts, and controlling file access.
 
 ---
 
-## 👥 User & Group Management
+## 🏢 Domain Setup (Company Network Environment)
 
-Created and organized users to simulate departments in a business environment.
+I set up a Windows Server to act as the central system that manages users, computers, and security settings across a company network.
 
-**Key Tasks:**
-- Created Organizational Units (OUs)
-- Added users to departments (HR, IT, Sales)
-- Managed users using security groups
+### What I Did
+- Installed Active Directory Domain Services (AD DS)
+- Promoted the server to a **Domain Controller**
+- Created an internal company domain
+- Configured DNS so devices can locate network resources
 
-📸 **Active Directory Users & Computers**
-<img src="https://i.imgur.com/tTxm4Mn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+### Why This Matters in IT Support
+This is how businesses centrally manage employee logins and computers. Helpdesk technicians work within this type of environment every day.
 
----
-
-## 🔐 Group Policy (Company Security Rules)
-
-Used **Group Policy** to enforce company-wide security rules.
-
-**Key Tasks:**
-- Enabled password complexity requirements  
-- Set minimum password length  
-- Configured account lockout policies  
-
-📸 **Password Policy Configuration**
-<img src="https://i.imgur.com/H2OOQjm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
----
-
-## 📂 File Sharing & Permissions
-
-Simulated a company file server with controlled access.
-
-**Key Tasks:**
-- Created shared folders
-- Assigned permissions to security groups
-- Practiced NTFS vs Share permissions
-- Used Effective Permissions to troubleshoot access issues
-
-📸 **Shared Folder Security Permissions**
-<img src="https://i.imgur.com/UXGpT8P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+📸 **Screenshot:** Domain Controller Setup
+<img src="https://i.imgur.com/35SW2wr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 ---
 
-## 🛡️ Security Configuration
+## 👥 User & Department Management
 
-Implemented additional security best practices.
+I created a realistic company structure with different departments and organized users the way a real IT department would.
 
-**Key Tasks:**
-- Created Fine-Grained Password Policies
-- Configured service accounts
-- Enabled Access-Based Enumeration
+### What I Did
+- Created Organizational Units (OUs) for departments:
+  - Accounting
+  - Management
+  - Sales
+- Added users to their correct departments
+- Used **security groups** to manage access more efficiently
 
-📸 **Fine-Grained Password Policy**
-![Fine-Grained Password Policy](screenshots/fine-grained-password-policy.png)
+### Why This Matters in IT Support
+Helpdesk technicians regularly create accounts, reset passwords, and update group memberships when employees are hired or change roles.
+
+📸 **Screenshot:** Active Directory Users & Computers
+<img src="https://i.imgur.com/cJfSDKp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+---
+## 🔐 Company Security Policies
+
+I configured security rules that apply to all users in the company to help protect accounts from unauthorized access.
+
+### What I Did
+- Enabled password complexity requirements
+- Set a minimum password length
+- Configured account lockout rules after multiple failed login attempts
+
+### Why This Matters in IT Support
+These policies protect company accounts and are often managed or troubleshot by helpdesk teams when users experience login issues.
+
+📸 **Screenshot:** Password Policy Configuration
+<img src="https://i.imgur.com/b1vcd7Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+---
+
+## 📂 File Sharing & Access Control
+
+I simulated a company file server where employees can only access files related to their department.
+
+### What I Did
+- Created shared folders for different departments
+- Assigned access using security groups
+- Practiced the difference between:
+  - **Share permissions** (network access)
+  - **NTFS permissions** (file-level access)
+- Used **Effective Permissions** to troubleshoot user access problems
+
+### Why This Matters in IT Support
+A very common helpdesk request is:  
+> “I can’t access this folder.”  
+This lab demonstrates how I would diagnose and fix those issues in a real work environment.
+
+📸 **Screenshot:** Shared Folder Security Permissions
+<img src="https://i.imgur.com/b1vcd7Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+---
+
+## 🛠️ Skills Demonstrated
+
+- Windows Server administration  
+- Active Directory user and group management  
+- Account security and password policies  
+- File sharing and permission troubleshooting  
+- Understanding of how business networks are structured  
 
 ---
 
-## 🎯 Skills Demonstrated
+## 🎯 Career Goal
 
-- Active Directory Administration  
-- User & Group Management  
-- Group Policy Configuration  
-- Windows File Server Permissions  
-- Troubleshooting Access Issues  
-- Implementing Security Best Practices  
-
----
-
-## 🧠 What This Project Shows Employers
-
-This homelab demonstrates hands-on experience with tools and tasks commonly performed in **Help Desk / Tier 1 IT Support roles**, including:
-
-✔ Resetting and managing user accounts  
-✔ Applying security policies  
-✔ Troubleshooting file access issues  
-✔ Understanding how business networks are structured  
-
----
+I am building hands-on experience to begin a career in **IT Support / Helpdesk**, where I can assist users, manage accounts, and support business systems in a professional environment.
