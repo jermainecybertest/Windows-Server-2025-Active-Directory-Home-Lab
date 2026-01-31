@@ -75,7 +75,7 @@ A very common helpdesk request is:
 This lab demonstrates how I would diagnose and fix those issues in a real work environment.
 
 📸 **Screenshot:** Shared Folder Security Permissions
-<img src="https://i.imgur.com/b1vcd7Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UzIgmyd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 ---
 
 ## 🛠️ Skills Demonstrated
