@@ -90,7 +90,7 @@ Simulates common helpdesk requests, such as resolving “I can’t access this f
 
 ## 🎯 Career Goal
 
-This project builds **hands-on IT Support / Helpdesk experience**, showcasing the ability to assist users, manage accounts, and maintain secure and organized business systems.
+This project builds hands-on experience, showcasing the ability to assist users, manage accounts, and maintain secure and organized business systems.
 
 ---
 
