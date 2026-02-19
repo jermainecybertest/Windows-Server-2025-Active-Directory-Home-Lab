@@ -1,5 +1,4 @@
 # 🖥️ Active Directory Home Lab Project
-**Career Focus:** IT Support / Helpdesk
 
 This project simulates a small business network using **Windows Server** and **Active Directory**. The goal is to demonstrate hands-on experience with common IT support tasks, including user management, account security, and file access control.
 
